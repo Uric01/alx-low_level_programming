@@ -3,7 +3,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+	 * int main(void) entrance points
+	 * 
+	 *
+	 * return(0) means successful return
+	 */
 int main(void)
 {
 	int n;
@@ -19,6 +24,7 @@ int main(void)
 	{
 	    printf("%i is positive", n);
 	} else if(n == 0)
+
 	{
 	    printf("%i is zero", n);
 	}
