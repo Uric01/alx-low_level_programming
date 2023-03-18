@@ -14,9 +14,12 @@ int main(void)
 	if(n<1)
 	{
 	    printf("%i is negative",n);
-	}else
+	}else if(n>-1)
 	{
 	    printf("%i is positive",n);
+	}else if(n==0)
+	{ 
+		printf("%i is zero")
 	}
 	return (0);
 }
