@@ -1,3 +1,4 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 #include <stdio.h>
 /**
@@ -33,4 +34,5 @@ putchar(' ');
 }
 }
 }
+return (0);
 }
