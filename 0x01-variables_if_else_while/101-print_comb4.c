@@ -28,7 +28,7 @@ putchar(44);
 putchar(32);
 }
 continue;
-putchar(',');
+putchar(',' + ' ');
 }
 }
 }
