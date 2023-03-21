@@ -1,16 +1,16 @@
 #include "main.h"
-
+#include <string.h>
 
 int main(void)
 {
-	_putchar('_');
- 	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char x[] = "_putchar";
+
+ int i = 0;
+
+ for( i = 0 ; i<7; ++i){
+
+    _putchar(x[i]);
+   }
 
     return 0;
 }
