@@ -9,7 +9,7 @@ int main(void)
 print_alphabet();
 return (0);
 }
-void print_alphabet(void)
+void print_alphabet()
 {
 int l;
 for(l = 'a'; l < 'z'; l++)
