@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	char *pt = "_putchar";
+char *pt = "_putchar";
 
+while (*pt)
+{
+_putchar(*pt);
+pt++;
 
-	while (*pt)
-	{
-		_putchar(*pt);
-		pt++;
-	}
-	_putchar('\n');
+}
+_putchar('\n');
 
-	return (0);
+return (0);
 }
