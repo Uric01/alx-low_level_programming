@@ -1,1 +1,1 @@
-This project is sbout going through different debugging styles
+0x03-debugging
